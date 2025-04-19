@@ -1,0 +1,62 @@
+/* src/index.css */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #000; /* Black background */
+  color: #fff; /* White text for readability */
+}
+
+header {
+  background: rgba(50, 50, 50, 0.8); /* Semi-transparent dark gray header */
+  color: #fff; /* White text color */
+  padding: 20px; /* Padding for header */
+  text-align: center;
+  font-size: 1.5em; /* Decent font size for header */
+}
+
+nav {
+  margin: 10px 0; /* Reduced margin for nav */
+}
+
+nav a {
+  color: #fff; /* White text color */
+  margin: 0 15px; /* Space between links */
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 15px; /* Padding for clickable area */
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+nav a:hover {
+  background-color: rgba(127, 140, 141, 0.5); /* Transparent grey on hover */
+}
+
+footer {
+  background: rgba(50, 50, 50, 0.8); /* Semi-transparent dark gray footer */
+  color: #fff; /* White text color */
+  padding: 20px; /* Padding for footer */
+  text-align: center;
+  font-size: 1.2em; /* Font size for footer */
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+main {
+  padding: 40px; /* Increased padding for main content */
+  background: rgba(44, 44, 44, 0.9); /* Dark gray background for main content */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Subtle shadow for depth */
+  margin: 20px auto;
+  max-width: 800px; /* Centered content with max width */
+  font-size: 1.1em; /* Increased font size for better readability */
+  text-align: center; /* Center text in main content */
+}
+
+.main-content h2 {
+  margin: 20px 0; /* Space above and below the main message */
+  font-size: 2em; /* Larger font for the main message */
+  font-weight: bold; /* Bold text for emphasis */
+}

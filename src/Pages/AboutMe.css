@@ -1,0 +1,13 @@
+.about-content {
+    text-align: left; 
+}
+
+.about-content h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+.about-content p {
+    margin-bottom: 20px;
+    line-height: 1.6; 
+}
